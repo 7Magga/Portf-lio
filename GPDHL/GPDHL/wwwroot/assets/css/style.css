@@ -525,11 +525,13 @@ section {
   opacity: 0.5;
   transition: 0.3s;
   filter: grayscale(100);
+  transform: scale(1.25);
 }
-.clients .swiper-slide img:hover {
-  filter: none;
-  opacity: 1;
-}
+    .clients .swiper-slide img:hover {
+        filter: none;
+        opacity: 1;
+        transform: scale(1.6);
+    }
 .clients .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -641,8 +643,22 @@ section {
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
-.cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/f1.jpg") fixed center center;
+.cta1 {
+    background: linear-gradient(rgba(2, 2, 2, 0.8), rgba(0, 0, 0, 0.7)), url("../img/green-logistics-street-trees.web.1365.434.jpg") fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+    margin-bottom: 50px;
+}
+
+.cta2 {
+    background: linear-gradient(rgba(2, 2, 2, 0.8), rgba(0, 0, 0, 0.7)), url("../img/glo-our-divisions-teaser-large.web.1365.434.jpg") fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+    margin-bottom: 50px;
+}
+
+.cta3 {
+    background: linear-gradient(rgba(2, 2, 2, 0.8), rgba(0, 0, 0, 0.7)), url("../img/glo-insights-innovation-teaser-large.web.1365.434.jpg") fixed center center;
     background-size: cover;
     padding: 60px 0;
 }
